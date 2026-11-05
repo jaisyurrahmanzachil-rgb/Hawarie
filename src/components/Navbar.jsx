@@ -23,7 +23,7 @@ export default function Navbar() {
                 <a href="#beranda" className="flex items-center gap-3">
                    <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-full bg-green-900">
                    <img
-                    src="/images/icon_hawarie.jpg"
+                    src="./../public/images/icon_hawarie.jpg"
                     alt="Logo Hawarie"
                     className="h-full w-full object-cover"
                    />

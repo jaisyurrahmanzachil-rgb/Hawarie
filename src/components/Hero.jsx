@@ -4,9 +4,9 @@ import { ArrowRight, BookOpen } from 'lucide-react'
 import Reveal from './Reveal'
 
 const heroImages = [
-  '/images/foto_utama1.jpeg',
-  '/images/foto_utama2.jpeg',
-  '/images/foto_utama3.jpeg',
+  './../public/images/foto_utama1.jpeg',
+  './../public/images/foto_utama2.jpeg',
+  './../public/images/foto_utama3.jpeg',
 ]
 
 export default function Hero() {
