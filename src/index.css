@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes slideInLeftToRight {
+  from {
+    transform: translateX(-100%);
+    opacty: 0.7;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutFade {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.slide-in-left-to-right {
+  animation: slideInLeftToRight 800ms ease-in-out both;
+}
+
+.slide-out-fade {
+  animation: slideOutFade 800ms ease-in-out both;
+}
