@@ -16,7 +16,7 @@ import Reveal from './Reveal'
 
 function Footer() {
   return (
-    <footer className="bg-green-950 text-white">
+    <footer className="bg-blue-950 text-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
 
         {/* Main Footer */}
@@ -29,15 +29,15 @@ function Footer() {
               <div className="group mb-5 flex items-center gap-3">
                 <BookOpen
                   size={32}
-                  className="text-green-300 transition duration-300 group-hover:scale-110 group-hover:rotate-6"
+                  className="text-blue-300 transition duration-300 group-hover:scale-110 group-hover:rotate-6"
                 />
 
-                <h2 className="text-xl font-bold tracking-wider transition duration-300 group-hover:text-green-300">
+                <h2 className="text-xl font-bold tracking-wider transition duration-300 group-hover:text-blue-300">
                   HAWARIE
                 </h2>
               </div>
 
-              <p className="max-w-sm text-sm leading-7 text-green-100/60">
+              <p className="max-w-sm text-sm leading-7 text-blue-100/60">
                 PPS Hawarie Qur'anic Homeschooling merupakan lembaga
                 pendidikan yang berkomitmen membangun generasi Qur'ani,
                 berilmu, dan berakhlak mulia.
@@ -52,9 +52,9 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram Hawarie"
-                    className="group flex flex-col items-center gap-2 text-green-100/60 transition duration-300 hover:text-green-300"
+                    className="group flex flex-col items-center gap-2 text-blue-100/60 transition duration-300 hover:text-blue-300"
                   >
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition duration-300 group-hover:scale-110 group-hover:border-green-300 group-hover:bg-green-300 group-hover:text-green-950">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition duration-300 group-hover:scale-110 group-hover:border-blue-300 group-hover:bg-blue-300 group-hover:text-blue-950">
                       <FaInstagram size={19} />
                     </span>
 
@@ -70,9 +70,9 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="TikTok Hawarie"
-                    className="group flex flex-col items-center gap-2 text-green-100/60 transition duration-300 hover:text-green-300"
+                    className="group flex flex-col items-center gap-2 text-blue-100/60 transition duration-300 hover:text-blue-300"
                   >
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition duration-300 group-hover:scale-110 group-hover:border-green-300 group-hover:bg-green-300 group-hover:text-green-950">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition duration-300 group-hover:scale-110 group-hover:border-blue-300 group-hover:bg-blue-300 group-hover:text-blue-950">
                       <FaTiktok size={18} />
                     </span>
 
@@ -88,9 +88,9 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="YouTube Hawarie"
-                    className="group flex flex-col items-center gap-2 text-green-100/60 transition duration-300 hover:text-green-300"
+                    className="group flex flex-col items-center gap-2 text-blue-100/60 transition duration-300 hover:text-blue-300"
                   >
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition duration-300 group-hover:scale-110 group-hover:border-green-300 group-hover:bg-green-300 group-hover:text-green-950">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 transition duration-300 group-hover:scale-110 group-hover:border-blue-300 group-hover:bg-blue-300 group-hover:text-blue-950">
                       <FaYoutube size={20} />
                     </span>
 
@@ -108,7 +108,7 @@ function Footer() {
           <Reveal delay={200}>
             <div className="flex flex-col items-center text-center">
 
-              <h3 className="mb-7 text-sm font-bold uppercase tracking-widest text-green-300">
+              <h3 className="mb-7 text-sm font-bold uppercase tracking-widest text-blue-300">
                 Informasi
               </h3>
 
@@ -125,10 +125,10 @@ function Footer() {
                   >
                     <MapPin
                       size={22}
-                      className="text-green-300 transition duration-300 group-hover:-translate-y-1 group-hover:scale-110"
+                      className="text-blue-300 transition duration-300 group-hover:-translate-y-1 group-hover:scale-110"
                     />
 
-                    <span className="text-sm leading-6 text-green-100/60 transition duration-300 group-hover:text-green-300">
+                    <span className="text-sm leading-6 text-blue-100/60 transition duration-300 group-hover:text-blue-300">
                       PPS Hawarie Sukatani
                     </span>
                   </a>
@@ -145,10 +145,10 @@ function Footer() {
                   >
                     <Phone
                       size={22}
-                      className="text-green-300 transition duration-300 group-hover:-translate-y-1 group-hover:scale-110"
+                      className="text-blue-300 transition duration-300 group-hover:-translate-y-1 group-hover:scale-110"
                     />
 
-                    <span className="text-sm text-green-100/60 transition duration-300 group-hover:text-green-300">
+                    <span className="text-sm text-blue-100/60 transition duration-300 group-hover:text-blue-300">
                       Nomor WhatsApp ustadzah Sukatani
                     </span>
                   </a>
@@ -163,10 +163,10 @@ function Footer() {
                   >
                     <Mail
                       size={22}
-                      className="text-green-300 transition duration-300 group-hover:-translate-y-1 group-hover:scale-110"
+                      className="text-blue-300 transition duration-300 group-hover:-translate-y-1 group-hover:scale-110"
                     />
 
-                    <span className="break-all text-sm text-green-100/60 transition duration-300 group-hover:text-green-300">
+                    <span className="break-all text-sm text-blue-100/60 transition duration-300 group-hover:text-blue-300">
                       Email operator Hawarie (operator.hawarie@gmail.com)
                     </span>
                   </a>
@@ -180,10 +180,10 @@ function Footer() {
 
         {/* Copyright */}
         <Reveal delay={200}>
-          <div className="flex justify-center pt-8 text-center text-xs text-green-100/40">
+          <div className="flex justify-center pt-8 text-center text-xs text-blue-100/40">
             <p className="text-sm md:text-base">
               © {new Date().getFullYear()}{' '}
-              <span className="transition duration-300 hover:text-green-100/70">
+              <span className="transition duration-300 hover:text-blue-100/70">
                 Pondok Pesantren Hawarie Qur'anic Homeschooling
               </span>
               . All rights reserved.

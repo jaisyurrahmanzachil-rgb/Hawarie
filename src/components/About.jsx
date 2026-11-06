@@ -43,7 +43,7 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={100}>
-            <h2 className="text-3xl font-bold leading-tight text-green-950 md:text-5xl">
+            <h2 className="text-3xl font-bold leading-tight text-blue-950 md:text-5xl">
               Tentang PPS Hawarie Qur'anic Homeschooling
             </h2>
           </Reveal>
@@ -62,12 +62,12 @@ export default function About() {
 
           {/* Vision */}
           <Reveal delay={150}>
-            <div className="rounded-3xl bg-[#F0F3EA] p-8 md:p-10">
-              <span className="text-sm font-bold uppercase tracking-widest text-green-700">
+            <div className="rounded-3xl bg-[#E0FFFF] p-8 md:p-10">
+              <span className="text-sm font-bold uppercase tracking-widest text-blue-700">
                 Visi
               </span>
 
-              <h3 className="mt-5 text-2xl font-bold leading-relaxed text-green-950">
+              <h3 className="mt-5 text-2xl font-bold leading-relaxed text-blue-950">
                 Mewujudkan generasi Qur'ani yang berilmu, berakhlak mulia,
                 dan memiliki potensi diri.
               </h3>
@@ -76,8 +76,8 @@ export default function About() {
 
           {/* Mission */}
           <Reveal delay={250}>
-            <div className="rounded-3xl bg-green-950 p-8 md:p-10">
-              <span className="text-sm font-bold uppercase tracking-widest text-green-300">
+            <div className="rounded-3xl bg-blue-950 p-8 md:p-10">
+              <span className="text-sm font-bold uppercase tracking-widest text-blue-300">
                 Misi
               </span>
 
@@ -97,7 +97,7 @@ export default function About() {
 
           <Reveal>
             <div className="mb-10 text-center">
-              <h3 className="text-2xl font-bold text-green-950 md:text-3xl">
+              <h3 className="text-2xl font-bold text-blue-950 md:text-3xl">
                 Nilai Pendidikan Kami
               </h3>
 
@@ -114,13 +114,13 @@ export default function About() {
 
               return (
                 <Reveal key={value.title} delay={index * 120}>
-                  <div className="group h-full rounded-2xl border border-green-900/10 p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                  <div className="group h-full rounded-2xl border border-blue-900/10 p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
-                    <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-green-100 text-green-900 transition-all duration-300 group-hover:bg-green-900 group-hover:text-white">
+                    <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-900 transition-all duration-300 group-hover:bg-blue-900 group-hover:text-white">
                       <Icon size={24} />
                     </div>
 
-                    <h4 className="mb-3 font-bold text-green-950">
+                    <h4 className="mb-3 font-bold text-blue-950">
                       {value.title}
                     </h4>
 

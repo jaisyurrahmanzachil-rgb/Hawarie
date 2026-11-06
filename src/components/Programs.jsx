@@ -46,7 +46,7 @@ const programs = [
 
 export default function Programs() {
   return (
-    <section id="program" className="bg-[#F0F3EA] px-6 py-24">
+    <section id="program" className="bg-[#E0FFFF] px-6 py-24">
       <div className="mx-auto max-w-7xl">
 
         {/* Header */}
@@ -60,9 +60,9 @@ export default function Programs() {
             </Reveal>
 
             <Reveal delay={150}>
-              <h2 className="text-3xl font-bold leading-tight text-green-950 md:text-5xl">
+              <h2 className="text-3xl font-bold leading-tight text-blue-950 md:text-5xl">
                 Ruang Belajar untuk
-                <span className="block text-green-700">
+                <span className="block text-blue-700">
                   Tumbuh dan Berkembang
                 </span>
               </h2>
@@ -86,22 +86,22 @@ export default function Programs() {
 
             return (
               <Reveal key={program.number} delay={index * 120}>
-                <article className="group h-full rounded-3xl border border-green-900/10 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                <article className="group h-full rounded-3xl border border-blue-900/10 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
                   {/* Card Header */}
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-bold text-green-700">
+                    <span className="text-sm font-bold text-blue-700">
                       {program.number}
                     </span>
 
                     <ArrowUpRight
                       size={20}
-                      className="text-gray-400 transition duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-green-800"
+                      className="text-gray-400 transition duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-blue-800"
                     />
                   </div>
 
                   {/* Program Icon */}
-                  <div className="my-9 flex h-14 w-14 items-center justify-center rounded-2xl bg-green-100 text-green-900 transition-all duration-300 group-hover:bg-green-900 group-hover:text-white">
+                  <div className="my-9 flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-900 transition-all duration-300 group-hover:bg-blue-900 group-hover:text-white">
                     <Icon size={27} />
                   </div>
 
@@ -110,7 +110,7 @@ export default function Programs() {
                     {program.tag}
                   </p>
 
-                  <h3 className="mb-4 text-xl font-bold text-green-950">
+                  <h3 className="mb-4 text-xl font-bold text-blue-950">
                     {program.title}
                   </h3>
 

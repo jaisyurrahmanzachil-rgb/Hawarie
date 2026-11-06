@@ -34,14 +34,14 @@ export default function Hero() {
   return (
     <section
       id="beranda"
-      className="relative flex min-h-screen items-center overflow-hidden bg-[#FAF9F3] px-6 pb-16 pt-32"
+      className="relative flex min-h-screen items-center overflow-hidden bg-[#E0FFFF] px-6 pb-16 pt-32"
     >
       <div className="mx-auto grid w-full max-w-7xl items-center gap-14 md:grid-cols-2">
 
         {/* Konten Kiri */}
         <div>
           <Reveal>
-            <p className="mb-6 inline-flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-green-900">
+            <p className="mb-6 inline-flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-blue-900">
               <BookOpen size={15} />
               Qur'anic Homeschooling
             </p>
@@ -50,7 +50,7 @@ export default function Hero() {
           <Reveal delay={100}>
             <h1 className="text-4xl font-bold leading-tight text-green-950 md:text-6xl">
               Membangun Generasi
-              <span className="block text-green-700">
+              <span className="block text-blue-700">
                 Qur'ani
               </span>
               Berilmu dan Berakhlak Mulia
@@ -58,7 +58,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={200}>
-            <p className="mt-7 max-w-xl text-base leading-8 text-gray-600">
+            <p className="mt-7 max-w-xl text-base leading-8 text-gray-700">
               PPS Hawarie Qur'anic Homeschooling menghadirkan
               lingkungan pendidikan yang mengintegrasikan nilai-nilai
               Al-Qur'an, ilmu pengetahuan, dan pembentukan karakter.
@@ -69,7 +69,7 @@ export default function Hero() {
             <Reveal delay={300}>
               <a
                 href="#profil"
-                className="group inline-flex items-center gap-2 rounded-full bg-green-900 px-7 py-4 text-sm font-semibold text-white transition hover:bg-green-800"
+                className="group inline-flex items-center gap-2 rounded-full bg-blue-900 px-7 py-4 text-sm font-semibold text-white transition hover:bg-blue-800"
               >
                 Kenali Hawarie
                 <ArrowRight
@@ -82,7 +82,7 @@ export default function Hero() {
             <Reveal delay={400}>
               <a
                 href="#program"
-                className="inline-block rounded-full border border-green-900 px-7 py-4 text-sm font-semibold text-green-950 transition hover:bg-green-100"
+                className="inline-block rounded-full border border-blue-900 px-7 py-4 text-sm font-semibold text-blue-950 transition hover:bg-blue-200"
               >
                 Lihat Program
               </a>
@@ -93,7 +93,7 @@ export default function Hero() {
         {/* Gambar Kanan */}
         <div className="relative">
           <Reveal delay={200}>
-            <div className="absolute -right-5 -top-5 h-full w-full rounded-4xl border-2 border-green-800/20" />
+            <div className="absolute -right-5 -top-5 h-full w-full rounded-4xl border-2 border-blue-800/20" />
           </Reveal>
 
           {/* Automatic Image Slideshow */}
@@ -122,8 +122,8 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={450}>
-            <div className="absolute -bottom-6 -left-5 rounded-2xl bg-white p-5 shadow-lg">
-              <p className="text-sm font-bold text-green-950">
+            <div className="absolute -bottom-6 -left-5 rounded-2xl bg-white p-5 shadow-lg inline-block border border-blue-500">
+              <p className="text-sm font-bold text-blue-950">
                 PPS Hawarie
               </p>
               <p className="mt-1 text-xs text-gray-500">

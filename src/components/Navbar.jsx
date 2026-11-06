@@ -14,12 +14,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 z-50 w-full border-b border-green-900/10 bg-[#FAF9F3]/95 backdrop-blur-md">
+    <nav className="fixed top-0 z-50 w-full border-b border-blue-900/10 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         {/* Logo */}
         <a href="#beranda" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-full bg-green-900">
+          <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-full bg-blue-900">
             <img
               src={iconHawarie}
               alt="Logo Hawarie"
@@ -28,10 +28,10 @@ export default function Navbar() {
           </div>
 
           <div>
-            <h1 className="text-lg font-bold tracking-wide text-green-950">
+            <h1 className="text-lg font-bold tracking-wide text-blue-800">
               HAWARIE
             </h1>
-            <p className="text-[10px] tracking-[2px] text-green-800">
+            <p className="text-[10px] tracking-[2px] text-blue-500">
               QUR'ANIC HOMESCHOOLING
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="text-sm font-medium text-green-950 transition hover:text-amber-700"
+              className="text-sm font-medium text-blue-500 transition hover:text-amber-700"
             >
               {link.label}
             </a>
@@ -53,7 +53,7 @@ export default function Navbar() {
         {/* Mobile Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-green-950 md:hidden"
+          className="text-blue-950 md:hidden"
           aria-label="toggle navigation"
         >
           {isOpen ? <X size={26} /> : <Menu size={26} />}
@@ -62,13 +62,13 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="border-t border-green-900/10 bg-[#FAF9F3] px-6 py-4 md:hidden">
+        <div className="border-t border-blue-900/10 backdrop-blur-md text-center px-6 py-4 md:hidden">
           {navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="block py-3 text-sm font-medium text-green-950"
+              className="block py-3 text-sm font-medium text-blue-950"
             >
               {link.label}
             </a>

@@ -34,7 +34,7 @@ export default function Donation() {
   return (
     <section
       id="donasi"
-      className="relative overflow-hidden bg-green-950 px-6 py-24"
+      className="relative overflow-hidden bg-blue-950 px-6 py-24"
     >
       {/* Dekorasi */}
       <div className="absolute -right-32 -top-32 h-96 w-96 rounded-full border border-white/10" />
@@ -60,14 +60,14 @@ export default function Donation() {
           <Reveal delay={200}>
             <h2 className="text-3xl font-bold leading-tight text-white md:text-5xl">
               Bersama Mendukung
-              <span className="block text-green-300">
+              <span className="block text-blue-300">
                 Pendidikan Qur'ani
               </span>
             </h2>
           </Reveal>
 
           <Reveal delay={300}>
-            <p className="mx-auto mt-6 max-w-2xl leading-8 text-green-100/70">
+            <p className="mx-auto mt-6 max-w-2xl leading-8 text-blue-100/70">
               Setiap bentuk dukungan dapat menjadi bagian dari ikhtiar
               dalam menghadirkan lingkungan pendidikan yang lebih baik
               bagi generasi mendatang.
@@ -83,9 +83,9 @@ export default function Donation() {
 
             return (
               <Reveal key={program.title} delay={index * 120}>
-                <div className="group h-full rounded-3xl border border-white/10 bg-white/5 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-green-300/30 hover:bg-white/10 hover:shadow-xl">
+                <div className="group h-full rounded-3xl border border-white/10 bg-white/5 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-blue-300/30 hover:bg-white/10 hover:shadow-xl">
 
-                  <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-amber-300/10 text-amber-300 transition duration-300 group-hover:scale-110 group-hover:bg-amber-300 group-hover:text-green-950">
+                  <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-amber-300/10 text-amber-300 transition duration-300 group-hover:scale-110 group-hover:bg-amber-300 group-hover:text-blue-950">
                     <Icon size={25} />
                   </div>
 
@@ -93,7 +93,7 @@ export default function Donation() {
                     {program.title}
                   </h3>
 
-                  <p className="text-sm leading-7 text-green-100/70">
+                  <p className="text-sm leading-7 text-blue-100/70">
                     {program.description}
                   </p>
 
@@ -105,24 +105,24 @@ export default function Donation() {
 
         {/* CTA */}
         <Reveal delay={200}>
-          <div className="mt-14 rounded-3xl bg-[#F0F3EA] p-8 text-center transition duration-300 hover:shadow-2xl md:p-12">
+          <div className="mt-14 rounded-3xl bg-[#4682B4] p-8 text-center transition duration-300 hover:shadow-2xl md:p-12">
 
-            <div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-900 transition duration-300 hover:scale-110">
+            <div className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 hover:scale-110">
               <ShieldCheck size={25} />
             </div>
 
-            <h3 className="text-2xl font-bold text-green-950 md:text-3xl">
+            <h3 className="text-2xl font-bold text-blue-950 md:text-3xl">
               Ingin Menjadi Bagian dari Perjalanan Kami?
             </h3>
 
-            <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-gray-600">
+            <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-gray-800">
               Hubungi pengelola PPS Hawarie untuk memperoleh informasi
               lebih lanjut mengenai bentuk dukungan dan mekanisme donasi.
             </p>
 
             <a
               href="#kontak"
-              className="group mt-8 inline-flex items-center gap-2 rounded-full bg-green-900 px-8 py-4 text-sm font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-green-800 hover:shadow-lg"
+              className="group mt-8 inline-flex items-center gap-2 rounded-full bg-blue-900 px-8 py-4 text-sm font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-blue-800 hover:shadow-lg"
             >
               Hubungi Kami
 

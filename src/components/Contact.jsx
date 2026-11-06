@@ -56,9 +56,9 @@ export default function Contact() {
           </Reveal>
 
           <Reveal delay={150}>
-            <h2 className="text-3xl font-bold leading-tight text-green-950 md:text-5xl">
+            <h2 className="text-3xl font-bold leading-tight text-blue-950 md:text-5xl">
               Mari Terhubung
-              <span className="block text-green-700">
+              <span className="block text-blue-700">
                 Bersama Hawarie
               </span>
             </h2>
@@ -83,13 +83,13 @@ export default function Contact() {
 
               return (
                 <Reveal key={item.title} delay={index * 120}>
-                  <div className="group h-full rounded-3xl border border-green-900/10 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:border-green-900/20 hover:shadow-xl">
+                  <div className="group h-full rounded-3xl border border-blue-900/10 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-900/20 hover:shadow-xl">
 
-                    <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-green-100 text-green-900 transition-all duration-300 group-hover:scale-110 group-hover:bg-green-900 group-hover:text-white">
+                    <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-900 transition-all duration-300 group-hover:scale-110 group-hover:bg-blue-900 group-hover:text-white">
                       <Icon size={23} />
                     </div>
 
-                    <h3 className="mb-3 font-bold text-green-950">
+                    <h3 className="mb-3 font-bold text-blue-950">
                       {item.title}
                     </h3>
 
@@ -98,7 +98,7 @@ export default function Contact() {
                         href={item.link}
                         target={item.external ? '_blank' : undefined}
                         rel={item.external ? 'noopener noreferrer' : undefined}
-                        className="text-sm leading-7 text-gray-500 transition-colors duration-300 hover:text-green-800 hover:underline"
+                        className="text-sm leading-7 text-gray-500 transition-colors duration-300 hover:text-blue-800 hover:underline"
                       >
                         {item.detail}
                       </a>
@@ -116,10 +116,10 @@ export default function Contact() {
 
           {/* Contact CTA */}
           <Reveal delay={200}>
-            <div className="flex flex-col justify-between rounded-3xl bg-green-950 p-8 transition duration-300 hover:shadow-2xl md:p-10">
+            <div className="flex flex-col justify-between rounded-3xl bg-blue-950 p-8 transition duration-300 hover:shadow-2xl md:p-10">
 
               <div>
-                <span className="inline-flex rounded-full bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-green-200">
+                <span className="inline-flex rounded-full bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-blue-200">
                   PPS Hawarie
                 </span>
 
@@ -127,7 +127,7 @@ export default function Contact() {
                   Kami Siap Menyambut Anda
                 </h3>
 
-                <p className="mt-5 leading-8 text-green-100/70">
+                <p className="mt-5 leading-8 text-blue-100/70">
                   Ingin mengetahui lebih jauh mengenai profil,
                   program pendidikan, atau kegiatan PPS Hawarie?
                   Silakan hubungi pengelola melalui saluran komunikasi resmi.
@@ -138,7 +138,7 @@ export default function Contact() {
                 href="https://wa.me/6281510123151?text=Halo%20kak%20admin,%20saya%20tertarik%20dengan%20pondok%20pesantren%20Hawarie!%20Apakah%20saya%20bisa%20berkonsultasi%20lebih%20lanjut?"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group mt-10 inline-flex w-fit items-center gap-3 rounded-full bg-green-300 px-7 py-4 text-sm font-bold text-green-950 transition-all duration-300 hover:-translate-y-1 hover:bg-green-200 hover:shadow-lg"
+                className="group mt-10 inline-flex w-fit items-center gap-3 rounded-full bg-blue-300 px-7 py-4 text-sm font-bold text-blue-950 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-200 hover:shadow-lg"
               >
                 <MessageCircle
                   size={19}
@@ -153,7 +153,7 @@ export default function Contact() {
                 />
               </a>
 
-              <p className="mt-5 text-xs text-green-100/50">
+              <p className="mt-5 text-xs text-blue-100/50">
                 Nomor telepon/WhatsApp admin Pondok Pesantren Hawarie Qur'anic Homeschooling
               </p>
 

@@ -59,7 +59,7 @@ export default function Gallery() {
             </Reveal>
 
             <Reveal delay={150}>
-              <h2 className="text-3xl font-bold text-green-950 md:text-5xl">
+              <h2 className="text-3xl font-bold text-blue-950 md:text-5xl">
                 Galeri Hawarie
               </h2>
             </Reveal>
@@ -67,13 +67,13 @@ export default function Gallery() {
             <Reveal delay={250}>
               <p className="mt-5 max-w-xl leading-7 text-gray-600">
                 Mengenal lebih dekat berbagai aktivitas, pengalaman,
-                dan suasana pembelajaran di PPS Hawarie.
+                dan suasana pembelajaran di Hawarie Qur'anic Homeschooling.
               </p>
             </Reveal>
           </div>
 
           <Reveal delay={300}>
-            <div className="flex items-center gap-2 text-sm font-semibold text-green-800">
+            <div className="flex items-center gap-2 text-sm font-semibold text-blue-800">
               <Images size={19} />
               Momen dan Cerita
             </div>
@@ -101,10 +101,10 @@ export default function Gallery() {
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
                 />
 
-                <div className="absolute inset-0 bg-linear-to-t from-green-950/90 via-green-950/10 to-transparent transition duration-300 group-hover:from-green-950/95" />
+                <div className="absolute inset-0 bg-linear-to-t from-blue-950/90 via-blue-950/10 to-transparent transition duration-300 group-hover:from-blue-950/95" />
 
                 <div className="absolute inset-x-0 bottom-0 p-6">
-                  <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-green-200">
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-blue-200">
                     {item.category}
                   </p>
 
