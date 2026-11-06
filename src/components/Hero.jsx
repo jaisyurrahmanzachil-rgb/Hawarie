@@ -48,7 +48,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={100}>
-            <h1 className="text-4xl font-bold leading-tight text-green-950 md:text-6xl">
+            <h1 className="text-4xl font-bold leading-tight text-blue-950 md:text-6xl">
               Membangun Generasi
               <span className="block text-blue-700">
                 Qur'ani
