@@ -1,13 +1,11 @@
-
 import { useEffect, useState } from 'react'
 import { ArrowRight, BookOpen } from 'lucide-react'
 import Reveal from './Reveal'
+import foto1 from "../assets/foto_utama1.jpeg"
+import foto2 from "../assets/foto_utama2.jpeg"
+import foto3 from "../assets/foto_utama3.jpeg"
 
-const heroImages = [
-  '../public/images/foto_utama1.jpeg',
-  '../public/images/foto_utama2.jpeg',
-  '../public/images/foto_utama3.jpeg',
-]
+const heroImages = [foto1, foto2, foto3]
 
 export default function Hero() {
   const [activeImage, setActiveImage] = useState(0)
@@ -16,12 +14,22 @@ export default function Hero() {
   // Automatic Image Slideshow
   useEffect(() => {
     const interval = setInterval(() => {
-      setPreviousImage(activeImage)
-      setActiveImage((activeImage + 1) % heroImages.length)
+      setPreviousImage((prevActive) => {
+        // simpan gambar yang lagi aktif sebelum pindah
+        return activeImage
+      })
+      setActiveImage((prev) => (prev + 1) % heroImages.length)
     }, 4500)
 
     return () => clearInterval(interval)
   }, [activeImage])
+
+  // Bersihin previousImage setelah animasi selesai biar gak numpuk
+  useEffect(() => {
+    if (previousImage === null) return
+    const timeout = setTimeout(() => setPreviousImage(null), 800)
+    return () => clearTimeout(timeout)
+  }, [previousImage])
 
   return (
     <section
@@ -58,14 +66,12 @@ export default function Hero() {
           </Reveal>
 
           <div className="mt-9 flex flex-wrap gap-4">
-
             <Reveal delay={300}>
               <a
                 href="#profil"
                 className="group inline-flex items-center gap-2 rounded-full bg-green-900 px-7 py-4 text-sm font-semibold text-white transition hover:bg-green-800"
               >
                 Kenali Hawarie
-
                 <ArrowRight
                   size={18}
                   className="transition-transform duration-300 group-hover:translate-x-1"
@@ -81,20 +87,18 @@ export default function Hero() {
                 Lihat Program
               </a>
             </Reveal>
-
           </div>
         </div>
 
         {/* Gambar Kanan */}
         <div className="relative">
-
           <Reveal delay={200}>
             <div className="absolute -right-5 -top-5 h-full w-full rounded-4xl border-2 border-green-800/20" />
           </Reveal>
 
           {/* Automatic Image Slideshow */}
           <Reveal delay={300}>
-            <div className="relative h-100 w-full overflow-hidden rounded-4xl shadow-xl md:h-130">
+            <div className="relative h-[400px] w-full overflow-hidden rounded-4xl shadow-xl md:h-[520px]">
 
               {/* Previous Image */}
               {previousImage !== null && (
@@ -122,13 +126,11 @@ export default function Hero() {
               <p className="text-sm font-bold text-green-950">
                 PPS Hawarie
               </p>
-
               <p className="mt-1 text-xs text-gray-500">
                 Qur'anic Homeschooling
               </p>
             </div>
           </Reveal>
-
         </div>
 
       </div>
